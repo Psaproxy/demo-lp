@@ -50,6 +50,6 @@ class ComplexNumber
     {
         $sign = $this->imaginaryPart < 0 ? '-' : '+';
 
-        return sprintf('%s %s %si', $this->realPart, $sign, $this->imaginaryPart);
+        return sprintf('%s %s %si', $this->realPart, $sign, abs($this->imaginaryPart));
     }
 }
