@@ -4,6 +4,10 @@
 
 ### Решение
 
+[VO комплексного числа](/ComplexNumber.php).
+
+[Помощник комплексных чисел](/ComplexNumbersHelper.php).
+
 [Пример использования](/examples.php).
 
 [Тесты](/Tests/ComplexNumbersTest.php). Запуск `vendor/bin/phpunit Tests/` из корневой директории.
