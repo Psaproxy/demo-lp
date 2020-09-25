@@ -21,16 +21,20 @@ $numberB = new ComplexNumber(20.20, 10);
 
 $numberC = ComplexNumbersHelper::addition($numberA, $numberB);
 echo '<pre>';
-var_dump($numberC);
+echo PHP_EOL.$numberC->realPart();
+echo PHP_EOL.$numberC->imaginaryPart();
 
 $numberC = ComplexNumbersHelper::subtraction($numberA, $numberB);
 echo '<pre>';
-var_dump($numberC);
+echo PHP_EOL.$numberC->realPart();
+echo PHP_EOL.$numberC->imaginaryPart();
 
 $numberC = ComplexNumbersHelper::multiplication($numberA, $numberB);
 echo '<pre>';
-var_dump($numberC);
+echo PHP_EOL.$numberC->realPart();
+echo PHP_EOL.$numberC->imaginaryPart();
 
 $numberC = ComplexNumbersHelper::division($numberA, $numberB);
 echo '<pre>';
-var_dump($numberC);
+echo PHP_EOL.$numberC->realPart();
+echo PHP_EOL.$numberC->imaginaryPart();
