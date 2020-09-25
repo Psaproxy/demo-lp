@@ -10,21 +10,13 @@ $numberA = new ComplexNumber(25, -9.20);
 $numberB = new ComplexNumber(20.20, 10);
 
 $numberC = ComplexNumbersHelper::addition($numberA, $numberB);
-echo '<pre>';
-echo PHP_EOL.$numberC->realPart();
-echo PHP_EOL.$numberC->imaginaryPart();
+echo '<br>'.(string)$numberC;
 
 $numberC = ComplexNumbersHelper::subtraction($numberA, $numberB);
-echo '<pre>';
-echo PHP_EOL.$numberC->realPart();
-echo PHP_EOL.$numberC->imaginaryPart();
+echo '<br>'.(string)$numberC;
 
 $numberC = ComplexNumbersHelper::multiplication($numberA, $numberB);
-echo '<pre>';
-echo PHP_EOL.$numberC->realPart();
-echo PHP_EOL.$numberC->imaginaryPart();
+echo '<br>'.(string)$numberC;
 
 $numberC = ComplexNumbersHelper::division($numberA, $numberB);
-echo '<pre>';
-echo PHP_EOL.$numberC->realPart();
-echo PHP_EOL.$numberC->imaginaryPart();
+echo '<br>'.(string)$numberC;
