@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Test\Task1\Tests;
+namespace Test\Tests;
 
 require_once dirname(__DIR__).'/vendor/autoload.php';
 
 use PHPUnit\Framework\TestCase;
-use Test\Task1\ComplexNumber;
-use Test\Task1\ComplexNumbersHelper;
+use Test\ComplexNumber;
+use Test\ComplexNumbersHelper;
 
 class ComplexNumbersTest extends TestCase
 {

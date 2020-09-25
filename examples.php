@@ -12,7 +12,7 @@ declare(strict_types=1);
 
 // По условиям задачи реализован отдельный класс помощник. В боевом проекте было бы удобно добавить методы помощника в VO комплексного числа.
 
-namespace Test\Task1;
+namespace Test;
 
 require_once __DIR__.'/vendor/autoload.php';
 
