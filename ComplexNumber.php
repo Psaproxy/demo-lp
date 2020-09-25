@@ -45,4 +45,11 @@ class ComplexNumber
     {
         return $this->imaginaryPart;
     }
+
+    public function __toString(): string
+    {
+        $sign = $this->imaginaryPart < 0 ? '-' : '+';
+
+        return sprintf('%s %s %s', $this->realPart, $sign, $this->imaginaryPart);
+    }
 }
